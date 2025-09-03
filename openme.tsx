@@ -28,9 +28,9 @@ const CONFIG = {
     ✨ Wishing you a very warm Happy Birthday🥳`,
   // Optional photo (square works best). Leave empty for none.
   photoUrl:
-    "img.jpg",
+    "./img.jpg",
   // Optional: add a short MP3 URL you have rights to.
-  musicUrl: "AUDIO-2025-09-03-19-19-01.m4a",
+  musicUrl: "https://www.youtube.com/watch?v=Bh_QhurLUwU",
   theme: {
     from: "#7c3aed", // violet-600
     via: "#ec4899", // pink-500
@@ -250,7 +250,15 @@ export default function BirthdayPage() {
               </div>
               <div>
                 <h3 className="text-xl font-semibold">A note for you</h3>
-                <p className="mt-1 text-white/90">{CONFIG.highlightMessage}</p>
+                <p className="mt-1 text-white/90">
+  {CONFIG.highlightMessage.split("\n").map((line, idx) => (
+    <React.Fragment key={idx}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
+</p>
+
                 <p className="mt-3 text-sm text-white/70">— {CONFIG.senderName}</p>
               </div>
             </div>
