@@ -30,7 +30,7 @@ const CONFIG = {
   photoUrl:
     "/img.jpg",
   // Optional: add a short MP3 URL you have rights to.
-  musicUrl: "https://www.youtube.com/watch?v=Bh_QhurLUwU",
+  musicUrl: "/bgscore.m4a",
   theme: {
     from: "#7c3aed", // violet-600
     via: "#ec4899", // pink-500
