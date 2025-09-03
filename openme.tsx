@@ -252,7 +252,10 @@ export default function BirthdayPage() {
               </div>
     <div className="flex-1 min-w-0">
       <h3 className="text-xl font-semibold">A note for you</h3>
-      <p className="mt-1 text-yellow-200 whitespace-nowrap overflow-x-auto scrollbar-none">
+      <p
+        className="mt-1 text-yellow-200"
+        style={{ whiteSpace: "pre-line" }}
+      >
         {CONFIG.highlightMessage}
       </p>
       <p className="mt-3 text-sm text-white/70">— {CONFIG.senderName}</p>
