@@ -19,10 +19,16 @@ const CONFIG = {
   mainMessage:
     "May your day be filled with laughter, love, and the kind of joy that lingers long after the candles go out.",
   highlightMessage:
-    '🎂 Let dreams come true, both old and new,\n And may joy arrive in skies of blue\n Let love stay near through all your days,\n And light your path in gentle ways\n Let every breeze sing and trees gently sway,\n Because you are the gift the world gets today\n✨ Wishing you a very warm Happy Birthday🥳',
+    `🎂 Let dreams come true, both old and new,
+    And may joy arrive in skies of blue
+    Let love stay near through all your days,
+    And light your path in gentle ways
+    Let every breeze sing and trees gently sway,
+    Because you are the gift the world gets today
+    ✨ Wishing you a very warm Happy Birthday🥳`,
   // Optional photo (square works best). Leave empty for none.
   photoUrl:
-    "https://instagram.fblr22-2.fna.fbcdn.net/v/t51.2885-19/470973026_567257272869203_8052949007598369202_n.jpg?efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMTguYzIifQ&_nc_ht=instagram.fblr22-2.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QGFrPjKOnQZXMMBiehQvKhu1YD0od-QWnAc5cmkbQ2JWQ-Adhac_BmX26shf3GJ7-HLpY7YP00eVan91bv9ZIvY&_nc_ohc=2bHoRofdSe0Q7kNvwHjf18D&_nc_gid=o7GjCljCzJAukAV3HqZHKQ&edm=AP4sbd4BAAAA&ccb=7-5&oh=00_AfaOnNy2SRVPHR0LJ0IeeB77_JZGgylKYIsXZKTiw5AVOA&oe=68BE446A&_nc_sid=7a9f4b",
+    "https://instagram.fixe1-4.fna.fbcdn.net/v/t51.2885-19/470973026_567257272869203_8052949007598369202_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMTguYzIifQ&_nc_ht=instagram.fixe1-4.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QGrfUovfPLMA5duu9sfvbhqiuY29oggM1k7eKh7IDum0LJdJYuvyRp5-7N2ni1DQXVJodA7qIp533RBm0dBdtyG&_nc_ohc=2bHoRofdSe0Q7kNvwF4hiu1&_nc_gid=UFya5IpAAVbMom5-H67yuQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfbCCAzK9FyTjOzlxaOpTDMlMuGYj-H4KpMWUngDlHfGKQ&oe=68BE446A&_nc_sid=8b3546",
   // Optional: add a short MP3 URL you have rights to.
   musicUrl: "AUDIO-2025-09-03-19-19-01.m4a",
   theme: {
