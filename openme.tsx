@@ -20,15 +20,15 @@ const CONFIG = {
     "May your day be filled with laughter, love, and the kind of joy that lingers long after the candles go out.",
   highlightMessage:
     `🎂 Let dreams come true, both old and new,
-    And may joy arrive in skies of blue
+    And may joy arrive in skies of blue,
     Let love stay near through all your days,
-    And light your path in gentle ways
+    And light your path in gentle ways,
     Let every breeze sing and trees gently sway,
-    Because you are the gift the world gets today
+    Because you are the gift the world gets today,
     ✨ Wishing you a very warm Happy Birthday🥳`,
   // Optional photo (square works best). Leave empty for none.
   photoUrl:
-    "./img.jpg",
+    "/img.jpg",
   // Optional: add a short MP3 URL you have rights to.
   musicUrl: "https://www.youtube.com/watch?v=Bh_QhurLUwU",
   theme: {
