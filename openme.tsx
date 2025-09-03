@@ -170,6 +170,7 @@ const GlassCard: React.FC<{ children: React.ReactNode; className?: string }> = (
 
 export default function BirthdayPage() {
   const [confetti, setConfetti] = useState(true);
+  const [confettiKey, setConfettiKey] = useState(0);
   const [candlesLit, setCandlesLit] = useState(false);
   const [playing, setPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
@@ -193,7 +194,8 @@ export default function BirthdayPage() {
     <div className="min-h-screen text-white">
       <GradientBackdrop />
       <Balloons />
-      <ConfettiField running={confetti} />
+{/*       <ConfettiField running={confetti} /> */}
+<ConfettiField key={confettiKey} running={true} />
 
       {!!CONFIG.musicUrl && (
         <audio ref={audioRef} src={CONFIG.musicUrl} preload="auto" loop />
@@ -267,18 +269,16 @@ export default function BirthdayPage() {
           <GlassCard>
             <h3 className="mb-3 text-xl font-semibold">Make it magical</h3>
             <div className="flex flex-wrap gap-3">
+
               <button
-                onClick={() => {
-                  setConfetti(false);
-                  requestAnimationFrame(() => setConfetti(true));
-                }}
-                className="rounded-2xl px-4 py-2 ring-1 ring-white/25 backdrop-blur transition hover:scale-105 hover:bg-white/15 active:scale-95"
-              >
-                <span className="inline-flex items-center gap-2">
-                  <PartyPopper className="h-4 w-4" />
-                  Pop Confetti
-                </span>
-              </button>
+  onClick={() => setConfettiKey((k) => k + 1)}
+  className="rounded-2xl px-4 py-2 ring-1 ring-white/25 backdrop-blur transition hover:scale-105 hover:bg-white/15 active:scale-95"
+>
+  <span className="inline-flex items-center gap-2">
+    <PartyPopper className="h-4 w-4" />
+    Pop Confetti
+  </span>
+</button>
               <button
                 onClick={() => setCandlesLit((v) => !v)}
                 className="rounded-2xl px-4 py-2 ring-1 ring-white/25 backdrop-blur transition hover:scale-105 hover:bg-white/15 active:scale-95"
