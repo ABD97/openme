@@ -171,7 +171,7 @@ const GlassCard: React.FC<{ children: React.ReactNode; className?: string }> = (
 export default function BirthdayPage() {
   const [confetti, setConfetti] = useState(true);
   const [confettiKey, setConfettiKey] = useState(0);
-  const [candlesLit, setCandlesLit] = useState(false);
+  const [candlesLit, setCandlesLit] = useState(true);
   const [playing, setPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
