@@ -28,7 +28,7 @@ const CONFIG = {
     ✨ Wishing you a very warm Happy Birthday🥳`,
   // Optional photo (square works best). Leave empty for none.
   photoUrl:
-    "https://instagram.fixe1-4.fna.fbcdn.net/v/t51.2885-19/470973026_567257272869203_8052949007598369202_n.jpg?stp=dst-jpg_s150x150_tt6&efg=eyJ2ZW5jb2RlX3RhZyI6InByb2ZpbGVfcGljLmRqYW5nby4zMTguYzIifQ&_nc_ht=instagram.fixe1-4.fna.fbcdn.net&_nc_cat=111&_nc_oc=Q6cZ2QGrfUovfPLMA5duu9sfvbhqiuY29oggM1k7eKh7IDum0LJdJYuvyRp5-7N2ni1DQXVJodA7qIp533RBm0dBdtyG&_nc_ohc=2bHoRofdSe0Q7kNvwF4hiu1&_nc_gid=UFya5IpAAVbMom5-H67yuQ&edm=AOQ1c0wBAAAA&ccb=7-5&oh=00_AfbCCAzK9FyTjOzlxaOpTDMlMuGYj-H4KpMWUngDlHfGKQ&oe=68BE446A&_nc_sid=8b3546",
+    "img.jpg",
   // Optional: add a short MP3 URL you have rights to.
   musicUrl: "AUDIO-2025-09-03-19-19-01.m4a",
   theme: {
